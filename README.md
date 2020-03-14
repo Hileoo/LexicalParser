@@ -4,7 +4,7 @@ Given some symbols describing C language grammar rules, design and implement lex
   
 [description]  
 This is a report for the program design of the lexical analysis parser about C language.   
-The parser is programmed in Java, with 5 classes and approximately 400 lines which including the comments and blanks.   
+The parser is programmed in Java, with 5 classes and approximately 400 lines which including the comments and blanks.  
 Overall, it involves the functions following:  
 a.	Detect input string errors: including some typical error types, and indicating the line number of error occurring;  
 b.	Distinguish the lexical type: including identifier, operator, separator, number type, preserved words, comments, literal string and some other delimiters; More detail will be illustrated in the following section;  
