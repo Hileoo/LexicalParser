@@ -17,3 +17,6 @@ More detail information listed in the file "report.pdf"
 (1) The upper and lower character are treated the same  
 (2) “/*......*/ and “//” are comments of the program  
 
+[Output Demo]  
+![Demo](https://github.com/Hileoo/LexicalParser/blob/master/Output_Demo.jpeg)  
+
