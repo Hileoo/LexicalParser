@@ -1,0 +1,75 @@
+<Comment Indicator, 6>:  //
+<Comment, 7>:  Author: Xinlong
+<Keyword, 8>:  #include
+<Operator, 1>:  <
+<Identifier, 2>:  stdio.h
+<Operator, 1>:  >
+<Keyword, 8>:  int
+<Identifier, 2>:  main
+<Separator, 3>:  (
+<Separator, 3>:  )
+<Separator, 3>:  {
+<Keyword, 8>:  int
+<Identifier, 2>:  length
+<Separator, 3>:  ;
+<Keyword, 8>:  char
+<Identifier, 2>:  ch
+<Operator, 1>:  =
+<Character, 4>:  c
+<Separator, 3>:  ;
+<Identifier, 2>:  printf
+<Separator, 3>:  (
+<Literal String, 5>:  "The number of books is 8"
+<Separator, 3>:  )
+<Separator, 3>:  ;
+<Comment Indicator, 6>:  /*
+<Comment, 7>:   It is a loop 
+<Comment Indicator, 6>:  */
+<Keyword, 8>:  for
+<Separator, 3>:  (
+<Keyword, 8>:  int
+<Identifier, 2>:  i
+<Operator, 1>:  =
+<Decimal Number, 10>:  2
+<Separator, 3>:  ;
+<Identifier, 2>:  i
+<Operator, 1>:  <
+<Identifier, 2>:  length
+<Separator, 3>:  ;
+<Identifier, 2>:  i
+<Operator, 1>:  ++
+<Separator, 3>:  )
+<Separator, 3>:  {
+<Keyword, 8>:  for
+<Separator, 3>:  (
+<Keyword, 8>:  int
+<Identifier, 2>:  j
+<Operator, 1>:  =
+<Decimal Number, 10>:  1
+<Separator, 3>:  ;
+<Identifier, 2>:  j
+<Operator, 1>:  <
+<Identifier, 2>:  length
+<Separator, 3>:  ;
+<Identifier, 2>:  j
+<Operator, 1>:  ++
+<Separator, 3>:  )
+<Separator, 3>:  {
+<Keyword, 8>:  if
+<Separator, 3>:  (
+<Identifier, 2>:  i
+<Operator, 1>:  ==
+<Decimal Number, 10>:  5
+<Separator, 3>:  )
+<Separator, 3>:  {
+<Keyword, 8>:  break
+<Separator, 3>:  ;
+<Separator, 3>:  }
+<Identifier, 2>:  printf
+<Separator, 3>:  (
+<Literal String, 5>:  "*"
+<Separator, 3>:  )
+<Separator, 3>:  ;
+<Separator, 3>:  }
+<Separator, 3>:  }
+<Separator, 3>:  }

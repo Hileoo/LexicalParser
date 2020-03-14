@@ -1,0 +1,102 @@
+<Keyword, 8>:  #include
+<Operator, 1>:  <
+<Identifier, 2>:  stdio.h
+<Operator, 1>:  >
+<Keyword, 8>:  int
+<Identifier, 2>:  main
+<Separator, 3>:  (
+<Separator, 3>:  )
+<Separator, 3>:  {
+<Keyword, 8>:  int
+<Identifier, 2>:  height
+<Separator, 3>:  ,
+<Identifier, 2>:  height_1
+<Operator, 1>:  =
+<Decimal Number, 10>:  20
+<Separator, 3>:  ;
+<Keyword, 8>:  int
+<Identifier, 2>:  width
+<Operator, 1>:  =
+<Decimal Number, 10>:  10
+<Separator, 3>:  ;
+<Keyword, 8>:  char
+<Identifier, 2>:  ch
+<Operator, 1>:  =
+<Character, 4>:  c
+<Separator, 3>:  ;
+<Comment Indicator, 6>:  /*
+<Comment, 7>:   There is the if statement 
+<Comment Indicator, 6>:  */
+<Keyword, 8>:  if
+<Separator, 3>:  (
+<Identifier, 2>:  height
+<Operator, 1>:  >=
+<Identifier, 2>:  width
+<Separator, 3>:  )
+<Separator, 3>:  {
+<Keyword, 8>:  int
+<Identifier, 2>:  area
+<Operator, 1>:  =
+<Identifier, 2>:  height
+<Operator, 1>:  *
+<Identifier, 2>:  width
+<Separator, 3>:  ;
+<Comment Indicator, 6>:  //
+<Comment, 7>:  If the area is more than 100
+<Keyword, 8>:  if
+<Separator, 3>:  (
+<Identifier, 2>:  area
+<Operator, 1>:  >
+<Decimal Number, 10>:  100
+<Separator, 3>:  )
+<Separator, 3>:  {
+<Keyword, 8>:  int
+<Identifier, 2>:  area
+<Operator, 1>:  +=
+<Decimal Number, 10>:  100
+<Separator, 3>:  ;
+<Keyword, 8>:  float
+<Identifier, 2>:  percentage
+<Operator, 1>:  =
+<Float Number, 9>:  0.2312
+<Separator, 3>:  ;
+<Identifier, 2>:  printf
+<Separator, 3>:  (
+<Literal String, 5>:  "The total area is "
+<Operator, 1>:  +
+<Identifier, 2>:  total_area
+<Separator, 3>:  )
+<Separator, 3>:  ;
+<Keyword, 8>:  if
+<Separator, 3>:  (
+<Separator, 3>:  (
+Error Format at  @$
+<Operator, 1>:  <=
+<Decimal Number, 10>:  1
+<Operator, 1>:  &&
+<Identifier, 2>:  area
+<Operator, 1>:  <
+<Decimal Number, 10>:  1000
+<Separator, 3>:  )
+<Separator, 3>:  )
+<Separator, 3>:  {
+<Identifier, 2>:  height
+<Operator, 1>:  ++
+<Separator, 3>:  ;
+<Separator, 3>:  }
+<Separator, 3>:  }
+<Keyword, 8>:  else
+<Separator, 3>:  {
+<Identifier, 2>:  printf
+<Separator, 3>:  (
+<Literal String, 5>:  "It is a small area: "
+<Operator, 1>:  +
+<Identifier, 2>:  area
+<Separator, 3>:  )
+<Separator, 3>:  ;
+<Separator, 3>:  }
+<Separator, 3>:  }
+<Keyword, 8>:  return
+<Decimal Number, 10>:  1
+<Separator, 3>:  ;
+<Separator, 3>:  }
